@@ -47,6 +47,16 @@
         Console.Write("Digite um número entre 1 e 20: ");
         int numeroDigitado = Convert.ToInt32(Console.ReadLine());
 
+
+
+
+        if (numeroDigitado == numeroSecreto)
+        {
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("Parabéns! Você acertou!");
+            Console.WriteLine("------------------------------");
+            break;
+        }
         if (tentativa == totalDeTentativas)
         {
             Console.WriteLine("------------------------------");
@@ -55,13 +65,6 @@
             break;
         }
 
-
-        if (numeroDigitado == numeroSecreto)
-        {
-            Console.WriteLine("------------------------------");
-            Console.WriteLine("Parabéns! Você acertou!");
-            Console.WriteLine("------------------------------");
-        }
         else if (numeroDigitado > numeroSecreto)
         {
             Console.WriteLine("------------------------------");
@@ -74,11 +77,6 @@
             Console.WriteLine("O número digitado é menor que o número secreto.");
             Console.WriteLine("------------------------------");
         }
-
-        Console.WriteLine("------------------------------");
-        Console.WriteLine($"O número secreto era: {numeroSecreto}");
-        Console.WriteLine("------------------------------");
-
         Console.WriteLine("Aperte Enter para continuar");
         Console.ReadLine();
 
