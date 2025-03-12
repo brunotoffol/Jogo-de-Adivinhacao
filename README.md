@@ -6,7 +6,7 @@ Um jogo de adivinhação onde o jogador deve acertar um número aleatório entre
 
 ### Exemplo
 
-![] (https://i.imgur.com/S9WePWG.gif)
+![](https://i.imgur.com/S9WePWG.gif)
 
 ### Funcionalidades
 
