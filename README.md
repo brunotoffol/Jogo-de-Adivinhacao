@@ -28,11 +28,11 @@ dotnet build --configuration Release
 ```
 5. Para Executar o projeto compilando em tempo real
 ```
-dotnet run --project Calculadora.ConsoleApp
+dotnet run --project JogoAdivinhacao.ConsoleApp
 ```
 6. Para executar o arquivo compilado, navegue até a pasta ./Calculadora.ConsoleApp/bin/Release/net8.0/ e execute o arquivo:
 ```
-Calculdora.ConsoleApp.exe
+JogoAdivinhacao.ConsoleApp.exe
 ```
 
 ## Requisitos
