@@ -30,7 +30,7 @@ dotnet build --configuration Release
 ```
 dotnet run --project JogoAdivinhacao.ConsoleApp
 ```
-6. Para executar o arquivo compilado, navegue até a pasta ./Calculadora.ConsoleApp/bin/Release/net8.0/ e execute o arquivo:
+6. Para executar o arquivo compilado, navegue até a pasta ./JogoAdivinhacao.ConsoleApp/bin/Release/net8.0/ e execute o arquivo:
 ```
 JogoAdivinhacao.ConsoleApp.exe
 ```
